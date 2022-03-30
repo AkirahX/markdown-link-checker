@@ -1,0 +1,35 @@
+{
+  "name": "mdlinkchecker",
+  "version": "1.0.0",
+  "description": "Get links on .md files, with status code.",
+  "main": "index.js",
+  "bin": {
+    "mdcheck": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "md",
+    "markdown",
+    "link",
+    "checker",
+    "status",
+    "code"
+  ],
+  "homepage": "https://github.com/AkirahX/markdown-link-checker",
+  "bugs": {
+    "url": "https://github.com/AkirahX/markdown-link-checker/issues"
+  },
+  "author": "Akirahx",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
